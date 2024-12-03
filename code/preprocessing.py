@@ -2,7 +2,8 @@ import pandas as pd
 import numpy as np
 
 csv_path = "/Users/connorjanowiak/Documents/Stanford/CS230/data/itineraries.csv"  
-output_csv_path = "/Users/connorjanowiak/Documents/Stanford/CS230/data/processed_itineraries.csv"
+# output_csv_path = "/Users/connorjanowiak/Documents/Stanford/CS230/data/processed_itineraries.csv"
+output_csv_path = "/Users/saderied/Library/Mobile Documents/com~apple~CloudDocs/School/Fall 2024/CS 230/CS 230 Final Project /processed_itineraries.csv"
 
 def preprocess_flight_data(csv_path, output_parquet_path, chunksize=100000):
     columns_to_keep = [
